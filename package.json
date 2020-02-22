@@ -1,5 +1,5 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workoutapp",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "seed": "node seed.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongojs": "^3.1.0",
     "mongoose": "^5.9.1",
     "morgan": "^1.9.1"
   },
