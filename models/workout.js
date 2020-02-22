@@ -15,6 +15,7 @@ const workoutApp = new Schema({
         reps: { type: Number },
         sets: { type: Number },
         distance: { type: Number },
+        totalDuration: { type: Number },
       }]
 });
 
