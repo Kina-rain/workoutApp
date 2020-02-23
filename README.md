@@ -17,4 +17,4 @@ The application uses a front end code. While the backend was created using a Mon
 
 ![alt text][screenshot]
 
-[screenshot]: https://github.com/Kina-rain/blob/master/screenshot.png "Workout Project"
+[screenshot]: https://github.com/Kina-rain/workoutApp/blob/master/screenshot.png "Workout Project"
