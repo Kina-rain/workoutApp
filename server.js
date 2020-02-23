@@ -1,6 +1,7 @@
-const express = require("express")
-const logger = require("morgan")
-const mongoose = require("mongoose")
+const express = require("express");
+const logger = require("morgan");
+const mongoose = require("mongoose");
+require('dotenv').config();
 
 // setting our port for Heroku and local
 const PORT = process.env.PORT || 8000;
